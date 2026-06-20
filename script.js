@@ -1,4 +1,4 @@
-const ramdomNumber = () => {
+const randomNumber = () => {
     return Math.floor(Math.random() * (10 - 1 + 1) + 1);
 }
 
@@ -14,3 +14,5 @@ const frases = {
     9: "May life bring you beautiful surprises and unforgettable moments.",
     10: "I wish you happiness, peace, and everything your heart desires."
 }
+
+console.log(frases[randomNumber()]);
